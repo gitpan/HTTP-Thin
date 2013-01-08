@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+dist.ini
+ex/simple.pl
+lib/HTTP/Thin.pm
+t/00-compile.t
+weaver.ini

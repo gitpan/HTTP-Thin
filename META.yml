@@ -1,0 +1,27 @@
+---
+abstract: 'A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message'
+author:
+  - 'Chris Prather <chris@prather.org>'
+build_requires:
+  File::Find: 0
+  File::Temp: 0
+  Test::More: 0
+  strict: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300028, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: HTTP-Thin
+requires:
+  Class::Method::Modifiers: 0
+  HTTP::Response: 0
+  HTTP::Tiny: 0
+  Safe::Isa: 0
+  parent: 0
+  perl: v5.12.1
+  warnings: 0
+version: 0.001
