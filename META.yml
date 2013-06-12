@@ -20,8 +20,9 @@ requires:
   Class::Method::Modifiers: 0
   HTTP::Response: 0
   HTTP::Tiny: 0
+  Hash::MultiValue: 0
   Safe::Isa: 0
   parent: 0
   perl: v5.12.1
   warnings: 0
-version: 0.001
+version: 0.002
