@@ -1,6 +1,6 @@
 package HTTP::Thin;
 {
-  $HTTP::Thin::VERSION = '0.003';
+  $HTTP::Thin::VERSION = '0.004';
 }
 use 5.12.1;
 use warnings;
@@ -52,7 +52,7 @@ HTTP::Thin - A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -90,5 +90,9 @@ This software is copyright (c) 2013 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTOR
+
+Tatsuhiko Miyagawa <miyagawa@bulknews.net>
 
 =cut
