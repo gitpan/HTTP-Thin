@@ -1,6 +1,6 @@
 package HTTP::Thin;
 {
-  $HTTP::Thin::VERSION = '0.002';
+  $HTTP::Thin::VERSION = '0.003';
 }
 use 5.12.1;
 use warnings;
@@ -24,7 +24,7 @@ around request => sub {
                         
                 my $options = {};
                 $options->{headers} = Hash::MultiValue->new(@headers)->mixed if @headers;
-                $options->{content} = $req->content if $req->content;
+                $options->{content} = $req->content if length($req->content);
                 @args = ( 
                         $req->method,
                         $req->uri,
@@ -35,7 +35,7 @@ around request => sub {
         return HTTP::Response->new(
                 $res->{status},
                 $res->{reason},
-                [ %{ $res->{headers} } ],
+                [ Hash::MultiValue->from_mixed($res->{headers})->flatten ],
                 $res->{content},
         );
 };
@@ -52,12 +52,12 @@ HTTP::Thin - A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
     use 5.12.1;
-    use HTTP::Request::Common
+    use HTTP::Request::Common;
     use HTTP::Thin;
 
     say HTTP::Thin->new()->request(GET 'http://example.com')->as_string;
