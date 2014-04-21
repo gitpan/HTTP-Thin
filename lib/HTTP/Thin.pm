@@ -1,5 +1,5 @@
 package HTTP::Thin;
-$HTTP::Thin::VERSION = '0.005';
+$HTTP::Thin::VERSION = '0.006';
 use warnings;
 
 #ABSTRACT: A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
@@ -51,7 +51,7 @@ HTTP::Thin - A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
 
 =head1 VERSION
 
-version 0.005
+version 0.006
 
 =head1 SYNOPSIS
 

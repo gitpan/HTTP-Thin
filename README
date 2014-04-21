@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution HTTP-Thin,
-version 0.005:
+version 0.006:
 
   A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
 

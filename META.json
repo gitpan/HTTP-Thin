@@ -50,7 +50,7 @@
          "web" : "https://github.com/perigrin/http-thin"
       }
    },
-   "version" : "0.005",
+   "version" : "0.006",
    "x_contributors" : [
       "Aran Deltac <aran@ziprecruiter.com>",
       "Tatsuhiko Miyagawa <miyagawa@bulknews.net>"

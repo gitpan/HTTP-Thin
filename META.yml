@@ -29,7 +29,7 @@ requires:
 resources:
   homepage: https://github.com/perigrin/http-thin
   repository: https://github.com/perigrin/http-thin.git
-version: '0.005'
+version: '0.006'
 x_contributors:
   - 'Aran Deltac <aran@ziprecruiter.com>'
   - 'Tatsuhiko Miyagawa <miyagawa@bulknews.net>'
