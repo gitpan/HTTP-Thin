@@ -1,10 +1,30 @@
 ==================================================
-Changes from 2012-06-14 00:00:00 +0000 to present.
+Changes from 2013-04-21 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.004 at 2013-06-14 05:26:31 +0000
+version 0.005 at 2014-04-21 18:33:26 +0000
 ------------------------------------------
+
+  Change: ae58413248b73a78b2bf1fc26582975aa4f25e9c
+  Author: Chris Prather <chris@prather.org>
+  Date : 2014-04-21 13:31:36 +0000
+
+    clean up dzil related fluffery 
+
+  Change: ad9294d58cdedf4ccce9c26a29fa702b741b0f77
+  Author: Chris Prather <chris@prather.org>
+  Date : 2014-04-21 14:06:44 +0000
+
+    Merge pull request #3 from bluefeet/master
+
+    Remove Perl 5.12 dependency. 
+
+  Change: 7241a3681c881cc392f3e9ebc520309a97b4c830
+  Author: Aran Deltac <aran@ziprecruiter.com>
+  Date : 2014-04-21 11:00:37 +0000
+
+    Remove Perl 5.12 dependency. 
 
   Change: 3131e6945ad12272254e447e2aea934690128d33
   Author: Chris Prather <chris@prather.org>
@@ -93,40 +113,6 @@ version 0.002 at 2013-06-12 21:58:38 +0000
 
     fix the synopsis 
 
-------------------------------------------
-version 0.001 at 2013-01-08 19:04:35 +0000
-------------------------------------------
-
-  Change: ef1c89d63883cd40cdcbf503e5beead014d4298e
-  Author: Chris Prather <chris@prather.org>
-  Date : 2013-01-08 14:04:35 +0000
-
-    add a few more things to gitignore 
-
-  Change: 23a8a1fc4a03f13cf0334ebd7aca72c6aca02619
-  Author: Chris Prather <chris@prather.org>
-  Date : 2013-01-08 13:46:23 +0000
-
-    make it releaseable 
-
-  Change: 497fdf11c33d31d198cfb0573f24fbcb5e0f92c0
-  Author: Chris Prather <chris@prather.org>
-  Date : 2013-01-08 12:57:09 +0000
-
-    use Safe::Isa rather than the ugly 
-
-  Change: f2cc010cdfb25d2ef8acf3350a4a5f66596663c1
-  Author: Chris Prather <chris@prather.org>
-  Date : 2013-01-08 12:51:40 +0000
-
-    Don't need to override new() 
-
-  Change: c664b94a43ac41b819585eeb68fbd6260f1f40b2
-  Author: Chris Prather <chris@prather.org>
-  Date : 2013-01-08 12:44:07 +0000
-
-    first draft 
-
-================
-End of releases.
-================
+===============================================
+Plus 1 release after 2013-04-21 00:00:00 +0000.
+===============================================
